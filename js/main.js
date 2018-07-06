@@ -76,9 +76,9 @@ window.initMap = () => {
     lng: -73.987501
   };
   self.map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 12,
+    zoom: 11,
     center: loc,
-    scrollwheel: false
+    scrollwheel: true
   });
   updateRestaurants();
 }
